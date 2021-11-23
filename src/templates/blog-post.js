@@ -14,6 +14,7 @@ import "../css/@wordpress/block-library/build-style/theme.css"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import Navbar from "../components/Navbar/Navbar"
 
 const BlogPostTemplate = ({ data: { previous, next, post } }) => {
   const featuredImage = {
@@ -31,6 +32,7 @@ const BlogPostTemplate = ({ data: { previous, next, post } }) => {
         itemType="http://schema.org/Article"
       >
         <header>
+          <Navbar />
           <h1 itemProp="headline">{parse(post.title)}</h1>
 
           <p>{post.date}</p>

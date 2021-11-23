@@ -1,0 +1,33 @@
+.section__padding {
+    padding: 4rem 6rem;
+}
+
+.demari__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 2rem 6rem;
+    
+}
+.demari__navbar h1 {
+    margin: .2rem .2rem;
+}
+
+.demari__navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    text-transform: capitalize;
+
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.demari__navbar-links h3 {
+    margin: .2rem .2rem;
+    justify-content: space-between;
+    font-size: 18px;
+}
